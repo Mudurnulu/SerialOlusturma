@@ -151,7 +151,9 @@ namespace SerialOlusturma
             shell,
             dizgi,
             excel,
-            trc
+            trc,
+            dizgiFull,
+            trcFull
         }
         static void KarakterOlustur(int[] karakter, enumapp applicarion)
         {
@@ -271,6 +273,44 @@ namespace SerialOlusturma
                     karakter[19] = 88;
                     karakter[14] = 89;
                     karakter[18] = 90;
+                    break;
+                case enumapp.dizgiFull:
+                    karakter[32] = 48;
+                    karakter[9]  = 49;
+                    karakter[14] = 50;
+                    karakter[17] = 51;
+                    karakter[16]= 52;
+                    karakter[8] = 53;
+                    karakter[19]= 54;
+                    karakter[20]= 55;
+                    karakter[4]  = 56;
+                    karakter[0]  = 57;
+                    karakter[23] = 65;
+                    karakter[25] = 66;
+                    karakter[15] = 67;
+                    karakter[12] = 68;
+                    karakter[26]= 69;
+                    karakter[3]  = 70;
+                    karakter[21] = 71;
+                    karakter[22]= 72;
+                    karakter[34]= 73;
+                    karakter[13]= 74;
+                    karakter[2]  = 75;
+                    karakter[1]  = 76;
+                    karakter[11] = 77;
+                    karakter[6]  = 78;
+                    karakter[5]  = 79;
+                    karakter[30] = 80;
+                    karakter[28]= 81;
+                    karakter[10] = 82;
+                    karakter[24] = 83;
+                    karakter[31] = 84;
+                    karakter[33]= 85;
+                    karakter[18] = 86;
+                    karakter[29] = 87;
+                    karakter[7]  = 88;
+                    karakter[35] = 89;
+                    karakter[27] = 90;
                     break;
                 case enumapp.excel:
                     karakter[11] = 48;

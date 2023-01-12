@@ -268,6 +268,9 @@ namespace SerialOlusturma
                 case "t":
                     enumapp = SerialCreated.enumapp.trc;
                     break;
+                case "df":
+                    enumapp = SerialCreated.enumapp.dizgiFull;
+                    break;
                 default:
                     break;
             }

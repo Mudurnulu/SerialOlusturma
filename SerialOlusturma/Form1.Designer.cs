@@ -35,13 +35,15 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +56,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 153);
+            this.textBox2.Location = new System.Drawing.Point(13, 326);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(63, 20);
             this.textBox2.TabIndex = 1;
@@ -70,7 +72,7 @@
             // 
             // txtson
             // 
-            this.txtson.Location = new System.Drawing.Point(13, 211);
+            this.txtson.Location = new System.Drawing.Point(13, 384);
             this.txtson.Name = "txtson";
             this.txtson.Size = new System.Drawing.Size(461, 20);
             this.txtson.TabIndex = 3;
@@ -98,17 +100,32 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.radioButton6);
             this.groupBox1.Controls.Add(this.radioButton5);
             this.groupBox1.Controls.Add(this.radioButton4);
+            this.groupBox1.Controls.Add(this.radioButton7);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 134);
+            this.groupBox1.Size = new System.Drawing.Size(200, 256);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Aktif Edilecek Program";
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(6, 111);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(79, 17);
+            this.radioButton5.TabIndex = 0;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Tag = "t";
+            this.radioButton5.Text = "Traceability";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -180,18 +197,31 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Oluşturulan Aktivasyon kodu";
             // 
-            // radioButton5
+            // radioButton6
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(6, 111);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(79, 17);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Tag = "t";
-            this.radioButton5.Text = "Traceability";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(6, 134);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(98, 17);
+            this.radioButton6.TabIndex = 0;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Tag = "tf";
+            this.radioButton6.Text = "Traceability Full";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(6, 157);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(122, 17);
+            this.radioButton7.TabIndex = 0;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Tag = "df";
+            this.radioButton7.Text = "Dizgi Application Full";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // Form1
             // 
@@ -233,6 +263,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton7;
     }
 }
 

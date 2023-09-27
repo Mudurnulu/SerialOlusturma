@@ -271,6 +271,9 @@ namespace SerialOlusturma
                 case "df":
                     enumapp = SerialCreated.enumapp.dizgiFull;
                     break;
+                case "tf":
+                    enumapp = SerialCreated.enumapp.trolleyfeeder;
+                    break;
                 default:
                     break;
             }

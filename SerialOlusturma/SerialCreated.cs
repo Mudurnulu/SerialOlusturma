@@ -153,7 +153,8 @@ namespace SerialOlusturma
             excel,
             trc,
             dizgiFull,
-            trcFull
+            trcFull,
+            trolleyfeeder
         }
         static void KarakterOlustur(int[] karakter, enumapp applicarion)
         {
@@ -388,43 +389,81 @@ namespace SerialOlusturma
                     karakter[19] = 89;
                     karakter[20] = 90;
                     break;
+                case enumapp.trolleyfeeder:
+                    karakter[30] = 48;
+                    karakter[14] = 49;
+                    karakter[19] = 50;
+                    karakter[15] = 51;
+                    karakter[2] = 52;
+                    karakter[6] = 53;
+                    karakter[9] = 54;
+                    karakter[17] = 55;
+                    karakter[23] = 56;
+                    karakter[27] = 57;
+                    karakter[18] = 65;
+                    karakter[7] = 66;
+                    karakter[35] = 67;
+                    karakter[11] = 68;
+                    karakter[22] = 69;
+                    karakter[24] = 70;
+                    karakter[8] = 71;
+                    karakter[20] = 72;
+                    karakter[28] = 73;
+                    karakter[21] = 74;
+                    karakter[5] = 75;
+                    karakter[3] = 76;
+                    karakter[25] = 77;
+                    karakter[12] = 78;
+                    karakter[31] = 79;
+                    karakter[16] = 80;
+                    karakter[1] = 81;
+                    karakter[33] = 82;
+                    karakter[10] = 83;
+                    karakter[4] = 84;
+                    karakter[29] = 85;
+                    karakter[26] = 86;
+                    karakter[34] = 87;
+                    karakter[13] = 88;
+                    karakter[32] = 89;
+                    karakter[0] = 90;
+                    break;
                 default:
-                    karakter[2] = 48;
-                    karakter[32] = 49;
-                    karakter[25] = 50;
-                    karakter[33] = 51;
-                    karakter[15] = 52;
-                    karakter[28] = 53;
-                    karakter[20] = 54;
-                    karakter[30] = 55;
-                    karakter[8] = 56;
-                    karakter[22] = 57;
-                    karakter[10] = 65;
-                    karakter[3] = 66;
-                    karakter[27] = 67;
-                    karakter[6] = 68;
-                    karakter[14] = 69;
-                    karakter[4] = 70;
-                    karakter[18] = 71;
-                    karakter[17] = 72;
-                    karakter[35] = 73;
-                    karakter[19] = 74;
-                    karakter[13] = 75;
-                    karakter[21] = 76;
-                    karakter[9] = 77;
-                    karakter[23] = 78;
-                    karakter[24] = 79;
-                    karakter[0] = 80;
-                    karakter[26] = 81;
-                    karakter[12] = 82;
-                    karakter[5] = 83;
-                    karakter[29] = 84;
-                    karakter[7] = 85;
-                    karakter[31] = 86;
-                    karakter[1] = 87;
-                    karakter[11] = 88;
-                    karakter[34] = 89;
-                    karakter[16] = 90;
+                    karakter[30] = 48;
+                    karakter[14] = 49;
+                    karakter[19] = 50;
+                    karakter[15] = 51;
+                    karakter[2] = 52;
+                    karakter[6] = 53;
+                    karakter[9] = 54;
+                    karakter[17] = 55;
+                    karakter[23] = 56;
+                    karakter[27] = 57;
+                    karakter[18] = 65;
+                    karakter[7] = 66;
+                    karakter[35] = 67;
+                    karakter[11] = 68;
+                    karakter[22] = 69;
+                    karakter[24] = 70;
+                    karakter[8] = 71;
+                    karakter[20] = 72;
+                    karakter[28] = 73;
+                    karakter[21] = 74;
+                    karakter[5] = 75;
+                    karakter[3] = 76;
+                    karakter[25] = 77;
+                    karakter[12] = 78;
+                    karakter[31] = 79;
+                    karakter[16] = 80;
+                    karakter[1] = 81;
+                    karakter[33] = 82;
+                    karakter[10] = 83;
+                    karakter[4] = 84;
+                    karakter[29] = 85;
+                    karakter[26] = 86;
+                    karakter[34] = 87;
+                    karakter[13] = 88;
+                    karakter[32] = 89;
+                    karakter[0] = 90;
                     break;
             }
 
